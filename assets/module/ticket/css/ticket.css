@@ -1,0 +1,115 @@
+.btn-group, .btn-group-vertical {
+    margin-bottom: 5px;
+    padding-left: 20px;
+}
+.mobile {
+    display: none;
+}
+.tabbable-custom>ul.tabs-ticket{
+	margin-top: 1% !important;
+}
+.mg-right{
+	margin-left: 20px;
+    margin-right: 20px;
+}
+.port-wrap{
+	margin-top: 2%;
+	display: none;
+}
+.panel-default>.panel-heading {
+    background-color: #194f80 !important;
+}
+.note-btn-group{
+	margin-bottom: 0px;
+    padding-left: 0px;
+}
+.client-visible-tag{
+	    background: #364150;
+    color: #fff;
+    padding: 7px 13px;
+    border-radius: 22px !important;
+}
+.attachments{
+        color: #fff;
+    background: #194f80;
+    font-weight: bold;
+    padding: 5px 12px;
+    margin-left: 5px;
+}
+.modal-body-attachments{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.attachments:hover{
+        color: #194f80;
+    background: transparent;
+   border:1px solid #194f80;
+   text-decoration: none;
+}
+.modal-attachments{
+    top:25%;
+}
+.btn-file-view{
+    width: 100%;
+}
+.previous{
+	padding-left: 17px;
+}
+.next{
+	padding-right: 20px;
+}
+.ticket-edit-icon i {
+	font-size: 18px;
+    padding-left: 5px;
+}
+.select-assign,
+            .select-status {
+                display: none;
+                width: 50% !important;
+                /*float: right;*/
+                 margin-left: 20px;
+            }
+.edit-field{
+	display: flex;
+}
+.breadcrumb-button{
+    position: absolute;
+    top: 14%;
+    left: 90%;
+}
+@media only screen and (max-width: 599px) {
+    .breadcrumb-button{
+        position: absolute;
+        top: 14%;
+        left: 60%;
+    }
+    .select-assign, .select-status{
+        margin-left: 0px;
+        margin-top: 5px;
+    }
+}
+@media only screen and (min-width: 600px)and (max-width: 767px) {
+    .breadcrumb-button{
+        position: absolute;
+        top: 14%;
+        left: 60%;
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .breadcrumb-button{
+        position: absolute;
+        top: 14%;
+        left: 80%;
+    }
+}
+
+
+@media only screen and (min-width: 992px)and  (max-width: 1199px){
+    .breadcrumb-button{
+        position: absolute;
+        top: 14%;
+        left: 85%;
+    }
+}  

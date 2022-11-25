@@ -1,0 +1,17 @@
+.row-repeater {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.font-orange .span-quotation{
+	font-size: 18px !important;
+}
+.custom-row-wrap .custom-md-1{
+	padding-left: 0px;
+}
+.custom-row-wrap .custom-md-1-dbl{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.total-wrap{
+	margin-top: 3%;
+}

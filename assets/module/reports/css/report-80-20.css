@@ -1,0 +1,100 @@
+.dashboard-body{
+	padding-top: 0px!important;
+}
+.dashbord-sub-title{
+	color: #666;
+    font-weight: 600;
+    font-size: 14px;
+}
+.content-section{
+	/*border: 1px solid #e7e7e7;*/
+	padding: 10px 0px;
+	/*border-radius: 10px!important;*/
+	border-right: 1px solid #f7f7f7; 
+	position: relative;
+}
+.icon-customer-dashboard{
+	position: absolute;
+    top: 26%;
+    right: 10%;
+    font-size: 29px;
+    color: #6f727d !important;
+    opacity: 0.2;
+}
+.content-section-last{
+	border-right: transparent;
+}
+.content-section h2{
+	margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #6f727d;
+}
+/*a:hover .content-section h2{
+	text-decoration: none;
+}
+a:hover .content-section h4{
+	text-decoration: none;
+}*/
+a:hover {
+	text-decoration: none;
+}
+.content-section h4{
+	font-size: 28px;
+    font-weight: 600;
+    color: #2ab4c0;
+}
+.table td:nth-child(odd){
+	background: transparent;
+}
+.portlet-table-list{
+	padding-top: 0px!important;
+}
+.table-highlighted-link{
+	color: #2ab4c0;
+}
+.table-highlighted-link:hover{
+	color: #666;
+}
+.table-custom-header th{
+	color: #666!important;
+}
+.business-genertaion-pie{
+	width: 100%;
+}
+.custom-chart-pie{
+	width: 100%;
+}
+#bussiness-generation-chart {
+	width: 100%;
+	height: 400px;
+}
+#customer-pie-chart {
+	width: 100%;
+	height: 400px;
+}
+#product-pie-chart {
+	width: 100%;
+	height: 400px;
+}
+#source-pie-chart {
+	width: 100%;
+	height: 400px;
+}
+#team-pie-chart {
+	width: 100%;
+	height: 400px;
+}
+.comparion-title{
+	
+}
+@media only screen and (max-width: 599px) {
+	.content-section{
+		border-right: transparent;
+	}
+	.business-genertaion-pie{
+		width: 80%;
+		display: block;
+		margin:0 auto;
+	}
+}

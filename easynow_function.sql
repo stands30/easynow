@@ -1,0 +1,147 @@
+DELIMITER $$
+CREATE FUNCTION `fnGetPeopleNameByID`(
+	`ppl_id_x` INT
+)
+RETURNS varchar(100) CHARSET latin1
+LANGUAGE SQL
+NOT DETERMINISTIC
+CONTAINS SQL
+SQL SECURITY DEFINER
+COMMENT ''
+BEGIN
+	RETURN (select concat((select gnp_name from gen_prm where gnp_value = ppl_title_id and gnp_group = 'ppl_title'),' ',ppl_name) FROM people WHERE ppl_id = ppl_id_x);
+END$$
+DELIMITER ;
+
+
+
+
+DELIMITER $$
+CREATE FUNCTION `fnNextasyDate`(
+	`nex_date` VARCHAR(50)
+)
+RETURNS varchar(100) CHARSET latin1
+LANGUAGE SQL
+NOT DETERMINISTIC
+CONTAINS SQL
+SQL SECURITY DEFINER
+COMMENT ''
+BEGIN
+	RETURN ifnull((select DATE_FORMAT(nex_date, '%D %b, %Y')),'');
+END$$
+DELIMITER ;
+
+
+
+
+DELIMITER $$
+CREATE FUNCTION `fnNextasyDatetime`(
+	`nex_date` VARCHAR(50)
+)
+RETURNS varchar(100) CHARSET latin1
+LANGUAGE SQL
+NOT DETERMINISTIC
+CONTAINS SQL
+SQL SECURITY DEFINER
+COMMENT ''
+BEGIN
+	RETURN ifnull((select DATE_FORMAT(nex_date, '%D %b, %Y %h:%i %p')),'');
+END$$
+DELIMITER ;
+
+
+
+
+
+DELIMITER $$
+CREATE FUNCTION `SUM_OF_LIST`(
+	`s` TEXT
+)
+RETURNS double
+LANGUAGE SQL
+DETERMINISTIC
+NO SQL
+SQL SECURITY DEFINER
+COMMENT ''
+BEGIN
+  DECLARE res DOUBLE DEFAULT 0;
+  WHILE INSTR(s, ",") > 0 DO
+    SET res = res + SUBSTRING_INDEX(s, ",", 1);
+    SET s = MID(s, INSTR(s, ",") + 1);
+  END WHILE;
+  RETURN res + s;
+END$$
+DELIMITER ;
+
+
+
+
+
+DELIMITER $$
+CREATE FUNCTION `nextasy_date`(
+	`nex_date` INT
+)
+RETURNS varchar(100) CHARSET latin1
+LANGUAGE SQL
+NOT DETERMINISTIC
+CONTAINS SQL
+SQL SECURITY DEFINER
+COMMENT ''
+BEGIN
+	RETURN DATE_FORMAT(@nex_date, '%D %b, %Y');
+END$$
+DELIMITER ;
+
+
+
+
+
+
+DELIMITER $$
+CREATE FUNCTION `nextasy_datetime`(
+	`nex_date` INT
+)
+RETURNS varchar(100) CHARSET latin1
+LANGUAGE SQL
+NOT DETERMINISTIC
+CONTAINS SQL
+SQL SECURITY DEFINER
+COMMENT ''
+BEGIN
+	RETURN DATE_FORMAT(@nex_date, '%D %b, %Y %h:%i %p');
+END$$
+DELIMITER ;
+
+DELIMITER $$
+CREATE FUNCTION `getGenPrmValueByGroup`(
+	`gnp_group_name` TEXT,
+	`gnp_group_value` TEXT
+)
+RETURNS TEXT CHARSET latin1
+LANGUAGE SQL
+NOT DETERMINISTIC
+CONTAINS SQL
+SQL SECURITY DEFINER
+COMMENT ''
+BEGIN
+	RETURN (SELECT gnp_name from gen_prm where gnp_group=gnp_group_name and gnp_value=gnp_group_value);
+END$$
+DELIMITER ;
+DELIMITER $$
+CREATE  FUNCTION `SUM_OF_LIST`(
+	`s` TEXT
+)
+RETURNS double
+LANGUAGE SQL
+DETERMINISTIC
+NO SQL
+SQL SECURITY DEFINER
+COMMENT ''
+BEGIN
+  DECLARE res DOUBLE DEFAULT 0;
+  WHILE INSTR(s, ",") > 0 DO
+    SET res = res + SUBSTRING_INDEX(s, ",", 1);
+    SET s = MID(s, INSTR(s, ",") + 1);
+  END WHILE;
+  RETURN res + s;
+END$$

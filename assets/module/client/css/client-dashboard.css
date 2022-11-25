@@ -1,0 +1,314 @@
+/*Client Dashboard*/
+.boxes-main{
+	background-color: #fff!important;
+}
+.client-main-list{
+	box-shadow: 0px 1px 15px 1px rgba(69,65,78,0.08);
+	border-radius: 20px!important;
+	padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;    
+    margin-bottom: 10px;
+}
+.meeting-tilte:hover{
+	text-decoration: none;
+}
+.hr-custom{
+	margin-top: 10px;
+}
+.meeting-tilte h3{
+	margin-top: 2px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #6f727d;
+    margin-bottom: 0px;
+}
+.meeting-tilte{
+	text-align: center;
+}
+.meeting-list a h3{
+	margin-top: 0px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #212529;
+}
+.meeting-count a h1{
+	margin-top: 10px;
+	font-weight: 600;
+}
+.meeting-count-first a h1{
+	color: #F98050;
+}
+.meeting-count-second a h1{
+	/*color: #67DE69;*/
+	/*color: #4fd69b;*/
+	color: #4CAF50;
+}
+.meeting-list a:hover, .meeting-count a:hover{
+	text-decoration: none;
+}
+.meeting-with{
+	font-size: 20px;
+	color: #87898c;
+}
+.meeting-icon{
+	margin-top: 10px;
+    margin-right: 5px;
+    position: absolute;
+    right: 20px;
+    top: -13px;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {  
+	 font-size: 30px;
+	 margin-right: 5px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+	[class^="flaticon-"]:after, [class*=" flaticon-"]:after {  
+		 font-size: 25px;
+		 margin-left: 5px;
+	}
+	.meeting-icon{
+		 right: 0px;
+    top: -13px;
+	}
+}
+.flaticon-calendar{
+	color: #f9a584;
+}
+.flaticon-task-complete{
+	color: #78d27c;
+}
+@media only screen and (min-width: 992px)and  (max-width: 1199px){
+	[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+	[class^="flaticon-"]:after, [class*=" flaticon-"]:after {  
+		 font-size: 20px;
+		 margin-left: 5px;
+	}
+	.side-padding{
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.meeting-icon {
+	    margin-right: -21px;
+	}
+	.meeting-count a h1{
+		font-size: 22px;
+	}
+	.meeting-with{
+		font-size: 14px;
+	}
+	.meeting-list a h3{
+		font-size: 13px;
+	}
+}
+.chart-main{
+	display: block;
+	margin: 0 auto;
+	color: #575962;
+    font-size: 20px;
+}
+.task-title{
+	text-align: center;
+}
+.task-title h3{
+	font-size: 18px;
+    font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+.task-open-tiles{
+	color: #ef1e25;
+}
+.task-closed-tiles{
+	color: #32c5d2;
+}
+@media only screen and (min-width: 992px)and  (max-width: 1199px){
+	.no-padding{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.task-title h3{
+		margin-top: 0px;	
+	}
+	.hr-task{
+		margin-bottom: 10px;
+	}
+}
+.dashboard-main-title{
+	font-size: 2rem;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.login-details h3{
+	/*font-size: 1.7rem;*/
+    margin-bottom: 20px;
+    font-weight: 400;	
+    margin-top: 10px;
+    text-align: right;
+    font-size: 1.3rem;
+}
+.dashboard-custom-title{
+	width: 70%;
+}
+.login-details{
+	width: 30%;
+}
+.dashboard-check{
+	display: inline-flex;
+	width: 100%;
+}
+.login-details h3 i{
+	/*font-size: 1.7rem;*/
+	font-size: 1.3rem;
+}
+.login-list{
+	/*background: #cacaca;*/
+	/*background: #e0e0e0;*/
+	/*background: #1d96ad;*/
+	background: #e7e7e7;
+    padding: 10px 14px;
+    color: #222;
+    border-radius: 25px!important;
+}
+.login-list{
+	color: #6f727d !important;
+}
+.login-list:hover, .refe-main a:hover, .refe-count a:hover, .client-list-count a:hover{
+	text-decoration: none;
+}
+.login-details span{
+	padding-right: 10px;
+}
+.refe-main h3{
+	margin-top: 0px;
+	/*font-size: 18px;
+    font-weight: 500;*/
+    font-size: 14px;
+    font-weight: 500;
+    color: #6f727d;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after{
+	    margin-left: 0px;
+}
+
+.refer-icon{
+	text-align: left!important;
+	position: absolute;
+}
+.refer-list-count{
+	text-align: right!important;
+}
+.refer-list-count span{
+	font-weight: 500;
+    /* margin-top: 5px; */
+    color: #6f727d;
+    padding-right: 50px;
+}
+.refer-icon-first{
+	color: #F03434;
+}
+.refer-icon-second{
+	color: #f7b837;
+}
+.all-client-count h3{
+	margin-top: 10px;
+    font-weight: 600;
+    font-size: 36px;
+    color: #6167e6;
+}
+.all-client-main{
+	font-size: 16px;
+    font-weight: 500;
+    color: #6f727d;
+}
+@media only screen and (max-width: 599px) {
+	.dashboard-custom-title{
+		width: 100%;
+	}
+	.login-details{
+		width: 100%;
+	}
+	.dashboard-check{
+		display: block;
+	}
+	.login-details h3{
+		text-align: left;
+	}
+	.login-list{
+		display: table;
+		margin-top: 10px;
+	}
+	.login-list i{
+		padding-right: 10px;
+	}
+	.meeting-icon{
+		right: 115px;
+    	top: -13px;
+	}
+	.refer-list-count span{
+		padding-right: 10px;
+	}
+	
+	.meeting-sepration{
+		border-bottom: 1px solid #dee2e6;
+    	margin-bottom: 12px;
+	}
+}
+@media only screen and (min-width: 600px)and (max-width: 767px) {
+	.dashboard-custom-title{
+		width: 100%;
+	}
+	.login-details{
+		width: 100%;
+	}
+	.dashboard-check{
+		display: block;
+	}
+	.login-details h3{
+		text-align: left;
+	}
+	.login-list{
+		display: table;
+		margin-top: 10px;
+	}
+	.login-list i{
+		padding-right: 10px;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.dashboard-custom-title{
+		width: 50%;
+	}
+	.login-details{
+		width: 50%;
+	}
+	.task-lead{
+		margin-top: -119px;
+	}
+}
+@media only screen and (min-width: 992px)and  (max-width: 1199px){
+	.login-details {
+	    width: 60%;
+	}
+	.refe-main h3 {
+	    margin-top: 0px;
+	    font-size: 12px;
+	    font-weight: 500;
+	    color: #6f727d;
+	    margin-bottom: 0px;
+	}
+	.refe-count h1{
+		margin-top: 5px;
+	}
+	.refer-list-count span{
+		padding-right: 0px;
+		font-size: 18px;
+	}
+	.all-client-main{
+		font-size: 12px;
+	}
+}

@@ -1,0 +1,109 @@
+
+.modal .modal-header .close{
+	    margin-top: 0px!important;
+}
+.modal-widgets .modal-dialog{
+	margin: 0px;padding: 0px;width: 100%;
+}
+.modal-widgets .modal-dialog .modal-content{
+	width: 100%;
+	height: 100vh;
+	border: none;
+}
+.image-modal{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	font-size: 35px;
+    background: transparent;
+    color: #fff;
+    border: none;
+    font-weight: bolder;
+}
+.image-modal:focus{
+	border:none;
+}
+.modal-widget-image{
+	width: 100%;
+	height: 100vh;
+}
+
+.modal-greeting .modal-content{
+    background: #fff;	
+	box-shadow: none;
+	border:none;
+	padding: 15px 20px;
+	border-radius: 10px!important;
+}
+.image-greeting-modal{
+	/*position: relative;
+	top: 10px;
+	right: 10px;*/
+	/*font-size: 35px;*/
+	font-size: 26px;
+    background: transparent;
+    color: #000;
+    text-align: left;
+    border: none;
+    font-weight: bolder;
+    background-color: #e7e7e7;
+    position: absolute;
+    right: -10px;
+    top: -13px;
+    border-radius: 50%!important;
+    line-height: 25px;
+}
+.greeting-container{
+	/*margin: 5px 10px;*/
+	
+	
+}
+.vertical-alignment-helper {
+    display:table;
+    height: 100%;
+    width: 100%;
+}
+.vertical-align-center {
+    /* To center vertically */
+    display: table-cell;
+    vertical-align: middle;
+}
+.greeting-modal-content {
+    /* Bootstrap sets the size of the modal in the modal-dialog class, we need to inherit it */
+    width:inherit;
+    height:inherit;
+    /* To center horizontally */
+    margin: 0 auto;
+}
+.greeting-image-div{
+	/*background: #c8d0d6 ;*/
+}	
+.greeting-image-div img{
+	width: 70%;margin: 0 auto;
+}
+.greeting-context h1{
+	text-align: center;
+    font-size: 40px;
+    /*font-size: 30px;*/
+    color: #1b2346;
+}
+.hr-below{
+	/*content: '';
+	width: 10%;
+	height: 5px;*/
+	border: 1px solid #1b2346;
+	border-top-left-radius: 10px!important;
+	border-bottom-right-radius: 10px!important;
+	background: #1b2346;
+}
+h3.modal-title-tag{
+	font-size: 20px!important;
+    font-weight: 500!important;
+}
+@media only screen and (max-width: 599px) {
+	.modal-greeting .modal-content{
+		margin-left: 15px;margin-right: 15px;
+	}
+
+}
+

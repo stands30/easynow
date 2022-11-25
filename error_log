@@ -1,0 +1,8 @@
+[18-Aug-2018 13:36:04 Etc/GMT] PHP Parse error:  syntax error, unexpected '}' in /home/easyn7mj/public_html/easynow.app/demo/application/views/people/people_detail.php on line 166
+[29-Sep-2018 17:20:54 Etc/GMT] PHP Fatal error:  Call to undefined method Home_model::delete() in /home/easyn7mj/public_html/easynow.app/nextasy/application/controllers/Lead.php on line 287
+[29-Sep-2018 17:21:05 Etc/GMT] PHP Fatal error:  Call to undefined method Home_model::delete() in /home/easyn7mj/public_html/easynow.app/nextasy/application/controllers/Lead.php on line 287
+[29-Sep-2018 17:21:08 Etc/GMT] PHP Fatal error:  Call to undefined method Home_model::delete() in /home/easyn7mj/public_html/easynow.app/nextasy/application/controllers/Lead.php on line 287
+[29-Sep-2018 17:21:19 Etc/GMT] PHP Fatal error:  Call to undefined method Home_model::delete() in /home/easyn7mj/public_html/easynow.app/nextasy/application/controllers/Lead.php on line 287
+[29-Sep-2018 17:21:23 Etc/GMT] PHP Fatal error:  Call to undefined method Home_model::delete() in /home/easyn7mj/public_html/easynow.app/nextasy/application/controllers/Lead.php on line 287
+[29-Sep-2018 17:21:32 Etc/GMT] PHP Fatal error:  Call to undefined method Home_model::delete() in /home/easyn7mj/public_html/easynow.app/nextasy/application/controllers/Lead.php on line 287
+[29-Sep-2018 19:17:09 Etc/GMT] PHP Fatal error:  Call to undefined method Home_model::delete() in /home/easyn7mj/public_html/easynow.app/nextasy/application/controllers/Lead.php on line 287

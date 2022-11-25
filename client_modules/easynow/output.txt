@@ -1,0 +1,38 @@
+Folder PATH listing
+Volume serial number is F4CF-AEE8
+C:.
+ÃÄÄÄcompany
+³   ÀÄÄÄimages
+ÃÄÄÄdashboard
+³   ÀÄÄÄimages
+ÃÄÄÄemail-template
+³   ÀÄÄÄdocs
+ÃÄÄÄevent
+³   ÀÄÄÄimages
+ÃÄÄÄgallery-set
+³   ÀÄÄÄimages
+ÃÄÄÄlogin
+³   ÀÄÄÄcustomer-login
+ÃÄÄÄmeeting
+³   ÀÄÄÄdocs
+ÃÄÄÄnotes
+³   ÀÄÄÄimages
+ÃÄÄÄpeople
+³   ÃÄÄÄdoc
+³   ³   ÀÄÄÄexcel
+³   ÃÄÄÄfileupload
+³   ÀÄÄÄimages
+³       ÃÄÄÄcompany_profile
+³       ÀÄÄÄprofile
+³           ÀÄÄÄresize
+ÃÄÄÄpipeline
+³   ÀÄÄÄimages
+ÃÄÄÄtask
+³   ÀÄÄÄdocs
+ÃÄÄÄtestimonials
+³   ÃÄÄÄimages
+³   ÀÄÄÄimages_resize
+ÃÄÄÄticket
+³   ÀÄÄÄdocs
+ÀÄÄÄwidget
+    ÀÄÄÄimages

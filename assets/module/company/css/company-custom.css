@@ -1,0 +1,12 @@
+.file-margin {
+  margin-top: 20px;
+}
+.form_add .fileinput .btn-file {
+  color: #666;
+  background-color: #ebf9fb;
+  border-color: #ebf9fb;
+}
+.help-block {
+	opacity: 1 !important;
+	color:red;
+}

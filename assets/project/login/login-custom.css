@@ -1,0 +1,181 @@
+body{
+            background-color: #fff;
+        }
+      /*  .login-form{
+            background-color: #222;
+        }*/
+            .btn-submit-login{
+                background-color: #32c5d2;
+            }
+            .btn-submit-login:hover{
+                border: 1px solid #32c5d2;
+                color: #32c5d2;
+                background-color: transparent;
+                
+            }
+            .input-login{
+                border: 2px solid #46E3D2 !important;
+                box-shadow: none;
+            }
+            /* .input-login::text{
+                padding-left: 10px;
+            } */ 
+           /* .input-login::placeholder{
+                padding-left: 10px;
+            }  */
+            .login-content .logo-login{
+               margin-top: 20px;
+                display: block;
+                margin: 10px auto;
+                margin-bottom:50px;
+                /*width: 50%;
+                background: #fff;*/
+                padding: 5px;
+            } 
+            .copyright-text p{
+                font-size: 13px;
+            }
+            @media only screen and (max-width: 599px) {
+                .user-login-5 .login-container>.login-content{
+                    margin-top: 0px;
+                }
+                .user-login-5 .login-bg{
+                    min-height: 45vh;
+                }
+                .btn-submit-login{
+                    float: right !important;
+                    position: absolute;
+                    top: -280%;
+                    right: 3%;
+                }
+                .forget-back{
+                    margin-bottom: 7px!important;
+                }
+                .forget-email{
+                    margin-top: 0px !important;
+                }
+            }
+
+.user-login-5 .login-container>.login-content>.login-form .form-control { 
+    padding: 10px 10px;
+}
+.form-group.form-md-line-input.form-md-floating-label .input-group.left-addon label, .form-group.form-md-line-input>.input-icon .form-control{
+    padding-left: 38px !important;
+}
+.password-input{
+    border-bottom: 1px solid !important;
+    border-bottom-color: rgb(114, 117, 122) !important;
+}
+.login-user{
+    color: #888 !important;
+}
+.user-login-5 .login-container>.login-content>.login-form .forgot-password>a:hover{
+    text-decoration: underline !important;
+}
+.user-login-5 .login-container>.login-content>.login-form .rem-password{
+    color: #2ab4c0;
+}
+.user-login-5 .login-container>.login-content>.login-form .forgot-password>a{
+    color: #2ab4c0;
+}
+.copyright-text a{
+    color: #2ab4c0;
+}
+.forget-form{
+    margin-top: 40px;
+}
+.forget-form p{
+    margin-top: 0px !important;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+.btn-outline
+{
+    padding: .75rem 2rem;border-radius: 60px!important;
+}
+.user-login-5 .login-container>.login-content p{
+    line-height: 24px;
+}
+/*.carousel-inner{
+    height: 100vh;
+}*/
+@media (max-width: 480px){
+    .btn.btn-outline.green{
+            margin: 0 5px 10px 0!important;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .login-content .logo-login{
+            width: 40% !important;
+    }            
+}
+.carousel-inner>.item>a>img, .carousel-inner>.item>img{
+    width: 100% !important;
+}
+/*width: 80vw;
+  height: 80vh;
+  background: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;*/
+
+  .btn-submit-login{
+    background-color: #32c5d2;
+}
+.btn-submit-login:hover{
+    border: 1px solid #32c5d2;
+    color: #32c5d2;
+    background-color: transparent;
+
+}
+.input-login{
+    border: 2px solid #46E3D2 !important;
+    box-shadow: none;
+}
+.errormesssage {
+    color: #ff0000f0;
+}
+.login-content .logo-login{
+   margin-top: 20px;
+    display: block;
+    margin: 10px auto;
+    width: 80%;
+    background: #fff;
+    padding: 5px;
+}
+.input-login{
+    border: none!important;
+}
+.password-input{
+    border-bottom: 1px solid !important;
+    border-bottom-color: #c2cad8 !important;
+}
+#load{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height:100vh;
+    z-index:9999;
+    overflow-y: hidden!important;
+    /*background:url("../images/new-logo.png") no-repeat center center rgb(255,255,255);*/
+}
+#loader-img{
+    margin: 0 auto;
+    vertical-align: middle;
+    max-width:70%;
+    max-height:100%;
+}
+
+.hd-btn{
+    font-size: 22px;
+    width: 34px;
+    margin-top: -5px;
+    border-radius: 19px !important;
+    background-color: #3eacbe;
+    border: none;
+}
+.user-login-5{
+    display: none;
+}

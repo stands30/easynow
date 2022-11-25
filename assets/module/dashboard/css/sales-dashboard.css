@@ -1,0 +1,16 @@
+.dashboard-sub-title{
+	margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 22px;
+    font-weight: 500;
+    color: #6f727d;
+}
+a:hover {
+	text-decoration: none;
+}
+.dataTables_filter{
+	float: right;
+}
+.dataTables_paginate.paging_simple_numbers .pagination{
+	    float: right;
+}

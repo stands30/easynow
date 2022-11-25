@@ -1,0 +1,30 @@
+.btn-file-view{
+	width: 100%;	
+}
+.btn-file-view{
+	width: 100%;
+}
+.attachments{
+        color: #fff;
+    background: #194f80;
+    font-weight: bold;
+    padding: 5px 12px;
+    margin-left: 5px;
+}
+.attachments:focus{
+    color: #fff;
+    text-decoration: none;
+}
+.modal-body-attachments{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.attachments:hover{
+        color: #194f80;
+    background: transparent;
+   border:1px solid #194f80;
+   text-decoration: none;
+}
+.modal-attachments{
+    top:25%;
+}

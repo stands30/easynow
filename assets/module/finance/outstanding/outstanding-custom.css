@@ -1,0 +1,41 @@
+.panel-detail-view .table-detail-custom.table-out.table td:nth-child(odd){
+    border-right: none!important;
+  }
+  .panel-detail-view .table-detail-custom.table-out.table td:nth-child(even){
+    border-right: 1px solid #e3e3e3!important;
+  }
+  .panel-detail-view .table-detail-custom.table-out.table td:nth-child(even):last-child{
+    border-right: none!important;
+  }
+  @media (max-width: 991px) {
+    .panel-detail-view .table-detail-custom.table-out.table td:nth-child(even){
+      border-right: none!important;
+    }
+    .flip-secondary{
+      border-left: 1px solid #e3e3e3!important;
+      border-right: 1px solid #e3e3e3!important;
+    }
+  }
+  .color-yellow{
+    color: #edba09!important;
+  }
+  .color-red{
+    color: #fe6363 !important;
+  }
+  .color-dark-green{
+    color: #0ec6b1 !important;
+  }
+  .inner-position{
+    position: relative!important;
+  }
+  .btn-delete-row{
+    position: absolute!important;
+    right: 0;
+  }
+  @media only screen and (max-width: 768px){
+    .flip-scroll .table-bordered.flip-content tbody tr td {
+        font-size: 13px;
+        line-height: 1.43;
+        min-height: 1.675em;
+    }
+  }

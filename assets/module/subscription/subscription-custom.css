@@ -1,0 +1,16 @@
+.table.table-list-detail-custom td:nth-child(odd){
+	background: #fff;
+}
+.table.dataTable.no-footer{
+	border-bottom-color: #e7ecf1;
+}
+.table-list-detail-custom tr th{
+	border: none!important;
+}
+.table-list-detail-custom tr td{
+	border: none!important;
+	border-top: 1px solid #e7ecf1!important;
+}
+.table-list-detail-custom tr{
+
+}

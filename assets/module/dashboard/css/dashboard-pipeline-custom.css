@@ -1,0 +1,67 @@
+.tab-paper{
+  background: #fff;margin-top: 0 !important;padding: 15px;margin-bottom: 15px;    border: 1px solid #b9babb;border-radius: 3px !important;
+}
+.pipeline-title{
+  font-size: 18px;margin-top: 0px;font-weight: 800;
+}
+.pipline-module{
+      background: #eeeeee;
+/*  background:#d6d6d6;background: #e5e5e5;*/border-bottom: 1px solid #e5e5e5;padding: 20px 10px;border-radius: 4px!important;-moz-border-radius: 4px;-webkit-border-radius: 4px;
+  display: inline-flex;
+}
+
+.pipeline-main-start{
+  white-space: normal;word-wrap: normal;list-style: none;display:inline-flex;margin:0;padding:0;
+}
+.pipeline-main-start li{
+  /*min-width: 172px;*/width: 100%;visibility: visible;padding-right:5px; float:left
+}
+
+/* .pipeline-list-paper{
+
+} */
+.stage-heading a{
+  margin: 0px;font-size: 1.1em;color: #fff;color: #317ae2;font-weight: 600;
+}
+.stage-count p{
+  font-size:10px;margin-top: 10px;margin-bottom: 0px;
+}
+.square {
+    /* background:#edd6ff; */
+    background: #F1F1F1;
+    display: inline-block;
+    /* height: auto;
+    height: 85px; */
+    min-width: 100px;
+    width: auto;
+    padding: 10px;
+}
+.square-more {
+    border-bottom: 38px solid #F1F1F1;
+    border-left: 43px solid transparent;
+    border-right: 42px solid transparent;
+    content: "";
+    /* height: 29px; */
+    /* left: 70px;
+    position: absolute;
+    top: 44px; */
+    transform: rotate(90deg);
+}
+.stage-block{
+  background:transparent url("../../../../assets/project/images/stage-cone-large.png") right center no-repeat;
+  padding:10px 46px 12px 10px;text-align:left;border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px
+}
+.stage-block:hover{
+  background:transparent url("../../../../assets/project/images/stage-cone-large-hover.png") right center no-repeat;
+}
+@media only screen and (max-width: 599px) {
+  /* .stage-block{
+    background:transparent url("../../../../assets/project/images/stage-cone-large-mobile.png") right center no-repeat;
+  } */
+  .pipeline-main-start{
+    display: block;
+  }
+  .pipeline-main-start li{
+    margin-bottom: 10px;
+  }
+}

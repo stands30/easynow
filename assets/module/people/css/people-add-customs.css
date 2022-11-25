@@ -1,0 +1,53 @@
+.select2{
+    width: 100% !important;
+}
+.enable-login-div
+{
+    display: inline-flex;
+}
+.asterix-error
+{
+    color:#f11414;
+}
+.help-block , .custom-error
+{
+    color:#f11414 !important;
+}
+.custom-asterix 
+{
+    display: none;
+}
+.bottom-box{
+    margin-bottom: 70px !important;
+}
+.title-box{
+    margin-top: 12px !important;
+}
+.profile_pic {
+    margin-left: -16px !important;
+    margin-top: 0px !important;
+}
+
+.select2-container--bootstrap .select2-selection--multiple .select2-search--inline .select2-search__field {
+    padding-left: 34px;
+}
+
+.save-btn{
+    color: white;
+    background-color: #1abc9c;
+}
+.font-diff{
+    font-size: 17px !important;
+    font-weight: 700 !important;
+}
+
+.btn-row {
+    /* padding-left: 126px; */
+    margin-left: 112PX;
+}
+
+.hr-line{
+    border: 0;
+    border-top: 1px solid #afaeae;
+    border-bottom: 0;
+}

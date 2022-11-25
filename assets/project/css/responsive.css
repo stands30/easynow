@@ -1,0 +1,98 @@
+@media only screen and (max-width: 768px) {
+	.custom-row-wrap .custom-md-1-dbl {
+    	padding-left: 15px !important;
+    	padding-right: 15px !important;
+	}
+	.custom-row-wrap .custom-md-1 {
+    	padding-left: 15px !important;
+	}
+	.btn-add a.btn_add{
+		max-width: 216px !important;
+	}
+	.foo_bar{
+		padding: 4% !important;
+	}
+	.portlet.light.bordered>.portlet-title{
+		border-bottom: none !important;
+	}
+	.font-caption{
+		margin-bottom: 7px;
+	}
+	.top-row-wrap{
+		margin-bottom: 10px;
+	}
+	.sp_line {
+    	width: 8%;
+	}
+	.panelHeading .inner-row{
+		padding-left: 5px !important;
+    	padding-right: 3px !important;
+	}
+	span.panel-title {
+    	font-size: 14px;
+	}
+	a.btn-edit {
+	    padding: 2px 10px;
+	}
+	span.created{
+		float: none !important;
+	}
+	.panel-heading span.sp-date{
+		float: none !important;
+	}
+	.created-title{
+		padding-left: 5px;
+	}
+}
+
+@media only screen and (max-width: 480px){
+.mobile {
+    	display: block;
+	}
+.nav>li>a {
+    	padding: 9px 0px;
+	}
+.tabbable-custom>.nav-tabs>li {
+    	text-align: center;
+    	width: 16%;
+	}
+.desktop {
+    	display: none;
+	}
+.portlet.light .dataTables_wrapper .dt-buttons {
+    	margin-top: 0px;
+	}
+.portlet.light .dataTables_wrapper .dt-buttons {
+    	margin-top: 0px;
+	}
+.dt-buttons {
+    	display: none !important;
+	}
+.dataTables_wrapper .dataTables_length {
+    	float: left !important;
+	}
+.dataTables_wrapper .dataTables_filter {
+    	margin-top: 0 !important;
+    	float: right;
+	}
+}
+@media only screen and (max-width: 768px){
+.mobile {
+    	display: inline-block;
+    	text-align: center;
+	}
+.tabbable-custom>.nav-tabs>li {
+    	text-align: center;
+    	width: 16.15%;
+	}
+.nav-tabs>li>a {
+    	color: #0695AC;
+	}
+.mobile .fa {
+    	display: block;
+    	margin: 7px auto;
+	}
+.mg-right{
+	    margin-left: 0px !important;
+	}
+}

@@ -1,0 +1,173 @@
+.activity-header {
+    border-bottom: 1px solid #eee;
+    /*margin-bottom: 10px;*/
+    margin-bottom: 5px;
+    display: flex;
+    padding-bottom: 5px;
+}
+.activity-title {
+    font-size: 16px;
+    font-weight: 700;
+    padding-bottom: 5px;
+    width: 20%; 
+}
+.activity-action{
+	width: 80%;
+    text-align: right;
+}
+.input-group-btn{
+	width: auto;
+}
+.activity-group{
+	/*display: inline-flex;*/
+	display: initial;
+}
+.input-group-custom{
+	margin-right: 15px;
+	text-align: left;
+	display: inline-flex;
+	margin-bottom: 5px;
+	width: 270px;
+}
+.input-group-custom:last-child{
+	margin-right: 0px;
+	width: auto;
+}
+.input-custom-label{
+	color: #222;
+    font-weight: 600;
+    padding-right: 5px;
+    white-space: nowrap;
+    line-height: 30px;
+}
+.btn.grey.btn-reload:not(.btn-outline){
+	/*padding: .45rem 1.2rem!important;*/
+}
+.btn-reload i{
+	font-size: 9px;
+}
+.select2-container--bootstrap .select2-selection{
+	border-top: 1px solid #c2cad8 !important;
+ 	border-left: 1px solid #c2cad8 !important; 
+ 	border-right: 1px solid #c2cad8 !important; 
+ 	padding: 6px 24px 6px 12px !important;
+}
+.portlet.light.portlet-activity{
+	padding: 12px 10px 10px;
+}
+/*List Styling start here*/
+.activity-list{
+	/*margin-bottom: 5px;*/
+    /*padding-bottom: 10px;*/
+    padding: 5px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+.activity-list a{
+	/*padding: 12px 5px !important;*/
+	padding: 5px 0px !important;
+	display: block !important;
+}
+.activity-inital{
+	position: absolute;
+	/*top: 15px;
+	left: 15px;*/
+	vertical-align: top;
+	display: inline-block;
+	position: relative;
+	margin-bottom: 5px;
+}
+.activity-inital span{
+	height: 30px;
+	width: 30px;
+	/*border: 1px solid #c4c4c4;*/
+	position: relative;
+	display: -ms-flexbox;
+	display: flex;
+	border-radius: 50%!important;
+	/*width: 25px;
+	height: 25px;*/
+	-ms-flex-negative: 0;
+	flex-shrink: 0;
+	font-size: 14px;
+    padding: 5px;
+    font-weight: 700;
+    background-color: #3eacbe;
+    color: #ffff;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+.activity-inner{
+	display: inline-block;
+	min-height: 30px;
+	padding-right: 50px;
+	/*margin-left: 55px;*/
+	margin-left: 8px;
+	word-break: break-word;
+	-ms-word-break: break-word;
+}
+.activity-data{
+	color: #222;
+}
+.activity-data .activity-bold{
+	font-weight: 700;
+}
+.activity-bottom{
+	padding-top: 5px;
+	color: #999;
+}
+.activity-list-people .activity-inital span{
+	background-color: #4badf8 ;
+}
+.activity-list:last-child{
+	margin-bottom: 0px;
+}
+.activity-list:hover{
+	background-color: #f4f5f7;
+	text-decoration: none!important;
+}
+.activity-list a:hover,
+.activity-list a:focus{
+	text-decoration: none!important;	
+}
+.portlet.light .portlet-body.activity-portlet-body{
+	padding-top: 0px;
+}
+@media (max-width: 991px) {
+	.activity-header{
+		display: block;
+	}	
+	.activity-title,
+	.activity-action{
+		width: 100%;
+	}
+	.activity-group{
+		display: grid;
+	}
+	.input-group-custom{
+		display: contents;
+	}
+	.btn.grey.btn-reload:not(.btn-outline){
+		margin: 10px 0px;
+		padding: .7rem 1.2rem!important;
+	}
+	/*List Styling start here*/
+	.activity-details{
+		display: inline-flex;
+	}
+	.activity-data,
+	.activity-bottom{
+		font-size: 12px;
+	}
+}
+@media only screen and (min-width: 992px)and  (max-width: 1199px){
+	.input-group-custom{
+		width: 260px;
+	}
+	.input-group-custom:nth-last-child(2) {
+		margin-right: 0px;
+	}
+	/*List Styling start here*/
+}

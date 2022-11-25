@@ -1,0 +1,104 @@
+.mt-widget-4{
+	margin-bottom: 30px;
+}
+.mt-head-title h4{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.mt-widget-4 .widget-overlay{
+	/*width: 96% !important;*/width: 95.5% !important;
+	right: 0;
+    left: 15px;
+}
+.mt-widget-4, .mt-widget-4 .mt-container{
+	min-height: 200px;
+}
+.mt-widget-4 .mt-img-container>img{
+	height: 200px;
+	max-height:auto;
+}
+.mt-footer-button a{
+	background-color: #2cc3e0;
+	color: #fff;
+}
+.btn-my-day{
+	text-align: center !important;
+    display: block;
+    margin: 0 auto;
+}
+.mt-widget-4 .mt-container .mt-footer-button{
+	/*position: unset;*/
+	right: 43%;
+    bottom: 22px;
+}
+/*.mt-widget-4 .mt-container .mt-head-title{
+	    margin-bottom: 40px;
+}*/
+.mt-widget-4 .mt-container .mt-footer-button>.btn{
+	width: 90px;
+    padding: 6px;
+    font-weight: bold;
+    border-top-right-radius: 0!important;
+    border-bottom-right-radius: 25px!important;
+    border: none!important;
+}
+.btn-my-day.active, .btn-my-day:active, .btn-my-day:hover, .open>.btn-my-day.dropdown-toggle{
+	background-color: #70dff4;
+	color: #fff;
+}
+.bg-dark-opacity{
+	background: #194f809e !important;
+}
+@media only screen and (max-width: 599px) {
+	.mt-widget-4 .widget-overlay{
+		width: 92% !important;
+	}
+	.mt-widget-4 .mt-container .mt-footer-button{
+		right: 35%;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.mt-widget-4 .mt-container .mt-footer-button{
+		right: 43%;
+	}
+}
+@media only screen and (min-width: 992px)and  (max-width: 1199px){
+	.mt-widget-4 .widget-overlay{
+		width: 92% !important;
+	}
+	.mt-widget-4 .mt-container .mt-footer-button{
+		right: 39%;
+	}
+}
+.people-dasboard-list:hover{
+    text-decoration: none;
+
+}
+.boxes-main:hover{
+    box-shadow: none!important;
+}
+.boxes-main{
+    background-color: #fff !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    border-radius: 5px !important;
+    /*margin-bottom: 10px !important;*/
+    margin-bottom: 25px !important;
+    box-shadow: 0px 1px 15px 1px rgba(69,65,78,0.08);
+}
+.people-title{
+    color: #6f727d !important;
+    text-transform: none !important;
+}
+.people-icon i{
+    color: #6f727d !important;
+}
+.special-people{
+    background: #489faf!important;
+}
+.people-contact {
+    word-wrap: break-word;
+    color: #5c5c5c !important;
+}

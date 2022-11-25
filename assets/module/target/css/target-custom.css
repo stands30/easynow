@@ -1,0 +1,82 @@
+.target-sub-list-title{
+    font-size: 12px;
+    font-weight: 500;
+    display: block;
+    padding-left: 10px;
+    text-transform: capitalize;
+    color: #999;
+    line-height: 10px;
+}
+.control-custom-label{
+    font-size: 16px;
+    color: #999;
+    margin-bottom: 5px;
+}
+.team-member-list{
+    transition: border linear 0.2s, box-shadow linear 0.2s;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    position: relative;
+    height: 200px;
+    padding: 0;
+    overflow-y: auto;
+}
+.team-member-list li{
+    border-bottom: 1px #eee solid;
+    padding: 2px 10px;
+    color: #555;
+    font-size: 14px;
+}
+.tabs_forms {
+    /*margin-top: 5%;*/
+    margin-top: 0;
+}
+.tabbable-line>.nav-tabs {
+    border-top: 1px solid #eef1f5;
+    background-color: #eeeeee91;
+}
+.tabbable-line>.nav-tabs>li.active>a {
+    color: #fff;
+}
+.nav-tabs li.active:after {
+    top: 100%;
+    left: 38px;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: transparent;
+    border-top-color: #36c6d3;
+    border-width: 10px;
+    margin-left: -8px;
+    z-index: 1;
+    background: 0 0;
+}
+.foo_bar{
+    margin: 0 0 0 -36px;
+}
+.custom-checkbox-header{
+    /*margin-top: 45px;*/
+    margin-top: 20px;
+}
+.panel-detail-view .table-detail-custom.table td.module-title{
+    background: #fbfbfb;
+}
+.portlet:not(.light) .tabbable-line{
+    padding-top: 0px;
+}
+.module-title .detail-sub-title{
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    font-size: 11px;
+    color: #808080!important;
+}
+@media only screen and (max-width: 599px) {
+    .ms-container{
+        width: 269px;
+    }
+}

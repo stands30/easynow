@@ -1,0 +1,114 @@
+/*Company Main start here*/
+.company-main-list{
+	/*box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);*/
+	box-shadow: 0px 1px 15px 1px rgba(69,65,78,0.08);
+	word-break: break-word !important;
+}
+.team-title{
+	color: #7D8CA4;
+	font-size: 16px;
+    text-align: left;   
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+.team-icon{
+	padding-right: 5px;
+}
+.team-icon i{
+	font-size: 20px;
+	/*font-weight: 500;*/
+}
+.team-count{
+	font-weight: 500;
+}
+.total-team a:hover{
+	text-decoration: none;
+}
+.company-list div[class*=col-md-2]:first-child{
+	border:none;
+}
+.company-list div[class*=col-md-2]{
+	border-left: 1px solid #dee2e6;
+}
+.team-team-value{
+	color: #6167e6;
+}
+.team-due-value{
+	color: #F03434;
+}
+.team-paid-value{
+	color: #20bf6b;
+}
+.team-bussiness-value{
+	color: #F4516C;
+}
+.team-total-value{
+	color: #6167e6;
+}
+.team-outstanding-value{
+	color: #f7b837;
+}
+.team-pipeline-value{
+	color: #00c5dc;
+}
+/*Company Main ends here*/
+/*Ticket*/
+.ticket-main{
+	margin-top: 20px;
+}
+.ticket-list i{
+	/*padding-left: 10px;*/
+}
+.ticket-details a h3{
+	padding-left: 20px;
+    margin-top: 3px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #6f727d;
+}
+.ticket-count a h1{
+	padding-left: 20px;
+    font-weight: 500;
+    margin-top: 5px;
+    color: #6f727d;
+}
+.ticket-list-open{
+	color: #36a3f7 !important;
+}
+.ticket-list-close{
+	color: #f4516c !important;
+}
+.ticket-main a:hover{
+	text-decoration: none;
+}
+@media only screen and (max-width: 599px) {
+	.company-list div[class*=col-md-2]:first-child{		
+		border-bottom: 1px solid #dee2e6;
+		margin-bottom: 10px;
+	}
+	.company-list div[class*=col-md-2]{
+		border-bottom: 1px solid #dee2e6;
+		margin-bottom: 10px;
+		border-left: none;
+	}
+	.company-list div[class*=col-md-2]:last-child{
+		border-bottom: none;
+	}
+	.company-ticket-list div[class*=col-md-6]:first-child{
+		border-bottom: 1px solid #dee2e6;
+		margin-bottom: 10px;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.div-due{
+		border-left: none !important;
+	}
+	.div-team, .div-business, .div-paid{
+		border-bottom: 1px solid #dee2e6 !important;
+	}
+	.company-main-list div[class*=col-md-6]:first-child{
+		border-right: 1px solid #dee2e6;
+	}
+}

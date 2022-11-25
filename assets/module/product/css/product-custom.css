@@ -1,0 +1,41 @@
+/*repeater-input-block*/
+.repeater-input-block{
+	    margin-top: 0px;
+}
+.form-group.form-md-line-input.repeter-floating-label{
+	padding-top: 0px;
+}
+.repeter-bg .repeater-input-block{
+	    margin-top: 26px;
+}
+.repeter-bg .form-group.form-md-line-input.repeter-floating-label{
+	padding-top: 20px;
+}
+.delete-repeater-custom {
+    margin-bottom: 15px;
+    margin-top: 0px;
+}
+.btn-list-search{
+  margin-top: 26px;
+}
+.portlet-custom .portlet-title{
+  margin-bottom: 0px!important;
+}
+@media only screen and (max-width: 599px) {
+  .btn-list-search{
+    margin-top: 0px;
+  }
+  .btn.green{
+    margin-bottom: 5px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .btn-list-search{
+    margin-top: 0px;
+  }
+  .portlet.light .dataTables_wrapper .dt-buttons{
+    margin-top: 0px;
+    margin-right: 10px;
+  }
+}

@@ -1,0 +1,133 @@
+.inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.inputfile + label {
+    max-width: 80%;
+    font-size: 1.25rem;
+    /* 20px */
+    font-weight: 700;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    /*padding: 0.625rem 1.25rem;*/
+    padding: 0.9rem 2.25rem;
+    border-radius: 20px!important;
+    /* 10px 20px */
+    padding: 13px 2.25rem;
+    color: #fff!important;
+}
+
+.no-js .inputfile + label {
+    display: none;
+}
+
+.inputfile:focus + label,
+.inputfile.has-focus + label {
+    outline: 1px dotted #000;
+    outline: -webkit-focus-ring-color auto 5px;
+}
+
+.inputfile + label * {
+    /* pointer-events: none; */
+    /* in case of FastClick lib use */
+}
+
+.inputfile + label svg {
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    fill: currentColor;
+    margin-top: -0.25em;
+    /* 4px */
+    margin-right: 0.25em;
+    /* 4px */
+}
+.image_preview{
+  padding-bottom: 10px;
+}
+.image_preview .pip img{
+  padding: 5px;
+}
+
+/* style 1 */
+
+.inputfile-1 + label {
+    color: #fff;
+    /*background-color: #d3394c;*/
+    background-color: #2ab4c0 ;
+}
+
+.inputfile-1:focus + label,
+.inputfile-1.has-focus + label,
+.inputfile-1 + label:hover {
+    /*background-color: #722040;*/
+    background-color: #43cbd6 ;
+}
+
+.note-editor.note-frame .note-editing-area .note-editable {
+    background-color: #fff!important;
+}
+
+.note-placeholder{
+  font-size: 21px;color: #c2c2c2;
+}
+
+.note-editor.note-frame {
+    border: 1px solid #e5e5e5;
+}
+
+#summernote_1{
+  height: 800px;
+}
+.notice-custom-button{
+      color: #fff;
+    /* background-color: #d3394c; */
+    background-color: #2ab4c0;
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    /* padding: 0.625rem 1.25rem; */
+    padding: 0.9rem 2.25rem;
+    border-radius: 20px!important;margin-bottom: 3px;
+}
+.notice-custom-button:hover,.notice-custom-button:focus, .notice-custom-button:active{
+  background-color: #43cbd6;
+  text-decoration: none;color: #fff
+}
+.input-video-link{
+  border:none;
+}
+.input-video{
+      border-left: 0;
+    border-top: 0;
+    border-right: 0;
+}
+.notice-board-video{
+      padding: 0.9rem 2.25rem;
+}
+.input-video:focus{
+  border-bottom:2px solid #3ac7d3;
+}
+hr, p {
+margin:0;
+  }
+#summernote_1{
+  min-height: 500px!important;
+}  
+@media only screen and (max-width: 599px){
+  #summernote_1{
+    height: 1800px;
+  }
+}

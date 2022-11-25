@@ -1,0 +1,33 @@
+.panel-default>.panel-heading {
+    background-color: #194f80 !important;
+}
+.btn-file-view{
+	width: 100%;	
+}
+.btn-file-view{
+	width: 100%;
+}
+.attachments{
+        color: #fff;
+    background: #3eacbe;
+    font-weight: bold;
+    padding: 5px 12px;
+    margin-left: 5px;
+}
+.attachments:focus{
+    color: #fff;
+    text-decoration: none;
+}
+.modal-body-attachments{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.attachments:hover{
+        color: #3eacbe;
+    background: transparent;
+   border:1px solid #3eacbe;
+   text-decoration: none;
+}
+.modal-attachments{
+    top:25%;
+}

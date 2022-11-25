@@ -1,0 +1,40 @@
+.error-number{
+  margin-bottom: 20px;
+}
+.portlet-error{
+  height: 82vh;
+  position: relative;
+  display: table;width: 100%;
+  /*height: 100%;        */
+  margin-bottom: 0px;
+}
+.center-item{
+    display: table-cell;
+     text-align: center;
+     vertical-align: middle;
+} 
+.number-bold{
+  font-weight: 700;
+  color: #626e82;
+  /*font-size: 80px;*/
+  /*font-size: 95px;*/
+  font-size: 110px;
+}  
+.not-found-title{
+  /*font-size: 20px;*/
+  font-size: 24px;
+  font-weight: 600;
+  /*color: #8d8d8d;*/
+  color: #626e82;
+  text-transform: capitalize;
+}
+.error-msg{
+  color: #626e82;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.btn-back{
+  font-size: 14px;
+
+}

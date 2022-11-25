@@ -1,0 +1,61 @@
+.custom-dropdown{
+	display: inline-flex;
+}
+.custom-dropdown .dropdown{
+	margin-right: 10px;
+}
+.custom-dropdown .dropdown:last-child{
+	margin-right: 0px;
+}
+
+/*.input-group-custom{
+	padding-right:10px;
+}
+.input-group-custom:last-child{
+	padding-right: 0px;
+}*/
+.input-custom-label{
+	color: #777;
+    font-weight: 500;
+    white-space: nowrap;
+    font-size: 14px;
+    padding-left: 3px;
+}
+.select2-container--bootstrap .select2-selection{
+	border-top: 1px solid #c2cad8 !important;
+    border-left: 1px solid #c2cad8 !important;
+    border-right: 1px solid #c2cad8 !important;
+    padding: 6px 24px 6px 12px !important;
+    border-radius: 35px!important;
+}
+.select2-container--bootstrap .select2-dropdown{
+	border-radius: 8px!important;
+}
+.portlet.light>.portlet-title>.caption.custom-block{
+	width: 100%;
+}
+.filter-row{
+	padding-top: 10px;
+}
+.md-checkbox-inline .md-checkbox{
+	margin-bottom: 10px;
+}
+.form-group-checkbox{
+	margin-bottom: 0px;
+}
+.portlet.bordered>.portlet-title.portlet-title-checkbox{
+	margin-bottom: 0px;
+}
+.portlet.light>.portlet-title>.caption.caption-checkbox{
+	padding: 0px;
+}
+@media (max-width: 991px){
+	
+	.select2-container{
+		min-width: 100%;
+	}
+	.portlet.light>.portlet-title>.caption.custom-block{
+		width: 100%;
+	}
+	
+}
